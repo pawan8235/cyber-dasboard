@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberTool Security Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> CyberTool Security Dashboard</h1>
+        <p>Web Security Scanner & Password Strength Analyzer</p>
+    </header>
+    <main class="container">
+        <section class="card">
+            <h2>Password Strength Analyzer</h2>
+            <form id="passwordForm">
+                <label for="passwordInput">Enter Password:</label>
+                <input type="password" id="passwordInput" placeholder="Type a password..." required>
+                <button type="submit" class="btn">Analyze Password</button>
+            </form>
+            <div id="passwordResult" class="result-box"></div>
+        </section>
+        <section class="card">
+            <h2>URL Safety Checker</h2>
+            <form id="urlForm">
+                <label for="urlInput">Enter Website URL:</label>
+                <input type="text" id="urlInput" placeholder="https://example.com" required>
+                <button type="submit" class="btn">Scan Url</button>
+            </form>
+            <div id="urlResult" class="result-box"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

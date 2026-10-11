@@ -1,0 +1,6 @@
+Scan_ID,Check_Type,Security_Score
+1,Password,85
+2,URL,40
+3,Password,95
+4,URL,30
+5,Password,60
